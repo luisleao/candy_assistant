@@ -1,0 +1,145 @@
+{
+  "userSays": [
+    {
+      "id": "d6b31436-78bf-43c7-8659-3ffeca9d2a28",
+      "data": [
+        {
+          "text": "i do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2b69295a-73a4-4612-aae0-21ff0fba20fc",
+      "data": [
+        {
+          "text": "alright"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ae4a0ae8-c622-4970-bfd3-cc9306633b38",
+      "data": [
+        {
+          "text": "definitely"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e03fb864-8976-4c9b-a8a1-fc3dda6c47bc",
+      "data": [
+        {
+          "text": "go for it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "21cf575d-30ab-4a95-90b4-21713a2c002a",
+      "data": [
+        {
+          "text": "of course"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6d6a1f76-8779-4e27-8d84-3218e990df47",
+      "data": [
+        {
+          "text": "sounds good"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d91875b-6698-4a65-8be8-276e43228f1f",
+      "data": [
+        {
+          "text": "yeah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab85745f-e705-4023-9401-fcab7cbef668",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84e6196c-2923-4359-9e7a-603c86165448",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2da60ae-b823-4e0a-995f-d10928afa394",
+      "data": [
+        {
+          "text": "yep"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5bae62ef-7dfd-42b9-a546-5207b62a7aab",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a2544a83-8591-4b8d-86ba-f41b300c1d36",
+  "name": "play-again-yes",
+  "auto": true,
+  "contexts": [
+    "yes_no"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "play_again_yes",
+      "affectedContexts": [
+        {
+          "name": "game",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

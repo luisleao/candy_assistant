@@ -1,0 +1,80 @@
+{
+  "userSays": [
+    {
+      "id": "f7af115b-8791-4c95-b689-54e8906404f1",
+      "data": [
+        {
+          "text": "77",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c8b1aa1f-56da-470c-b3ab-9f614f2d8fde",
+      "data": [
+        {
+          "text": "the number "
+        },
+        {
+          "text": "45",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7727325a-ffa0-44bf-9551-cbb2431a3eb8",
+      "data": [
+        {
+          "text": "number "
+        },
+        {
+          "text": "5",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "68f8347c-72a3-42ac-9ae7-49571001f55e",
+  "name": "deep_link_number",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "deeplink.number",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

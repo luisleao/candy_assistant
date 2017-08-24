@@ -1,0 +1,486 @@
+{
+  "userSays": [
+    {
+      "id": "81a7cec7-21ff-4305-88e7-1515d22bb25c",
+      "data": [
+        {
+          "text": "it can only be "
+        },
+        {
+          "text": "33",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f6f1cf40-aa41-4e97-af44-e9415154de3b",
+      "data": [
+        {
+          "text": "it has to be "
+        },
+        {
+          "text": "99",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4636229-df0d-4783-9f70-1093628d60dd",
+      "data": [
+        {
+          "text": "maybe its "
+        },
+        {
+          "text": "66",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "10087126-74a2-4b7d-b1ce-a7174e2c1980",
+      "data": [
+        {
+          "text": "yes, its "
+        },
+        {
+          "text": "77",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b014673e-7be2-46f5-913c-a93f1b367069",
+      "data": [
+        {
+          "text": "it\u0027s not "
+        },
+        {
+          "text": "88",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2c5c41a4-35c4-4491-a20e-cd27370c76c7",
+      "data": [
+        {
+          "text": "is it lower that "
+        },
+        {
+          "text": "88",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4358e539-887f-4fa7-94aa-ac7e360751d1",
+      "data": [
+        {
+          "text": "is it higher than "
+        },
+        {
+          "text": "77",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "629d4a53-d099-45b8-ae28-977434b20f32",
+      "data": [
+        {
+          "text": "my guess is "
+        },
+        {
+          "text": "33",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5c4f7ae3-b15b-4dfe-9633-fc372d5efb3d",
+      "data": [
+        {
+          "text": "I\u0027m thinking of "
+        },
+        {
+          "text": "88",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c04cb6dc-a68b-4b80-b899-52be464dc8ee",
+      "data": [
+        {
+          "text": "ok, it\u0027s "
+        },
+        {
+          "text": "77",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3cc08738-45ac-482f-aa38-41ed190d8192",
+      "data": [
+        {
+          "text": "i guessed "
+        },
+        {
+          "text": "55",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "299c0ab1-b6a2-490e-a9ac-05f9ab1eb0c7",
+      "data": [
+        {
+          "text": "i guess "
+        },
+        {
+          "text": "99",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "41a75b04-5b8f-49de-af4c-ab237884de2c",
+      "data": [
+        {
+          "text": "i think it\u0027s "
+        },
+        {
+          "text": "55",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "70461118-1adb-457c-88e1-f6f6b06f17a7",
+      "data": [
+        {
+          "text": "let\u0027s try "
+        },
+        {
+          "text": "66",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2d7d760-35e6-4cdd-8efd-90440e2d0f9c",
+      "data": [
+        {
+          "text": "could it be "
+        },
+        {
+          "text": "11",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e77ca7fa-44df-49cf-982f-fbd06ab2c7b9",
+      "data": [
+        {
+          "text": "how about "
+        },
+        {
+          "text": "22",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b0a6f39-26ec-4a0d-801c-df2444c60ed6",
+      "data": [
+        {
+          "text": "maybe "
+        },
+        {
+          "text": "33",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "72e3da7c-aa9a-4777-ad18-519b35e573a2",
+      "data": [
+        {
+          "text": "it\u0027s "
+        },
+        {
+          "text": "55",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b8551ddc-da0c-4f9c-b079-851ef2a89e88",
+      "data": [
+        {
+          "text": "my next guess is "
+        },
+        {
+          "text": "44",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc967f65-3f8a-4d9e-b2ee-89cb616b6ea6",
+      "data": [
+        {
+          "text": "my guess is "
+        },
+        {
+          "text": "44",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "189d042c-7a0d-48a3-bcef-8a2d85eee999",
+      "data": [
+        {
+          "text": "another is "
+        },
+        {
+          "text": "33",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d4402ada-aee2-4877-98b0-b3ce09ee9092",
+      "data": [
+        {
+          "text": "the number is "
+        },
+        {
+          "text": "23",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2fd162ab-4903-46ed-8da9-428d2aafde50",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "first",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " guess is "
+        },
+        {
+          "text": "22",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9c662a28-9554-4462-a789-9fbec3d48124",
+      "data": [
+        {
+          "text": "could it be "
+        },
+        {
+          "text": "44",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7dd4ef1c-acd6-4c1a-9efd-63e8db3e080c",
+      "data": [
+        {
+          "text": "25",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3e689e19-793a-498f-8803-e99cef4d61fa",
+      "data": [
+        {
+          "text": "is it "
+        },
+        {
+          "text": "5",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d5be79c8-acf7-4f53-a360-f1c8805a7726",
+      "data": [
+        {
+          "text": "how about "
+        },
+        {
+          "text": "1",
+          "alias": "guess",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1e46ffc2-651f-4ac0-a54e-9698feb88880",
+  "name": "provide_guess",
+  "auto": true,
+  "contexts": [
+    "game"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "check_guess",
+      "affectedContexts": [
+        {
+          "name": "game",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "guess",
+          "value": "$guess",
+          "prompts": [
+            "Sorry, say that again?",
+            "Sorry, that number again?",
+            "What was that number?",
+            "Sorry what was that?",
+            "I didn’t hear a number. What’s your guess?",
+            "Say that again."
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,115 @@
+{
+  "userSays": [
+    {
+      "id": "e4b28469-40a9-4ed6-b1ca-58e2a61da3c1",
+      "data": [
+        {
+          "text": "i don\u0027t think so"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d4670e4c-a4e9-41a3-8cf4-5d5a806c3f57",
+      "data": [
+        {
+          "text": "no thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8c17a4b6-e36c-4b48-a817-7b34cfbbf8ee",
+      "data": [
+        {
+          "text": "definitely not"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "651664cc-b9d0-4dce-bf2a-74fabb06bcb1",
+      "data": [
+        {
+          "text": "nah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ac71c007-4149-436f-ada0-11b1c349618d",
+      "data": [
+        {
+          "text": "no way"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f74d2791-14ab-48fc-902a-0e4962aecadb",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "cde1c465-3f93-4b19-a747-f338e89c71d7",
+      "data": [
+        {
+          "text": "not really"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f6d3ecc3-f67e-4ac2-a9f9-c4e58c65de49",
+      "data": [
+        {
+          "text": "nope"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2ae41bb5-5423-414d-9190-1b6dd460e12f",
+  "name": "play_again_no",
+  "auto": true,
+  "contexts": [
+    "yes_no"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "play_again_no",
+      "affectedContexts": [
+        {
+          "name": "game",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,127 @@
+{
+  "userSays": [
+    {
+      "id": "852d0929-9e9f-4437-b9f6-826e23fec939",
+      "data": [
+        {
+          "text": "say that again"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb52b1d8-1fa3-4e68-ab83-839dd0750746",
+      "data": [
+        {
+          "text": "again?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4978ee02-42a5-4498-a996-8367360a8d96",
+      "data": [
+        {
+          "text": "repeat that"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "704c5cce-5e06-4eb3-9326-5e76b871a2e8",
+      "data": [
+        {
+          "text": "what?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ebd977ea-efd5-4421-b4a7-993f5f3ca536",
+      "data": [
+        {
+          "text": "what did you say?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c7fffaac-147f-4501-bb35-6bc60740dc2a",
+      "data": [
+        {
+          "text": "I didn\u0027t hear that?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eeced84b-b43f-4d17-8b91-bb07d8298237",
+      "data": [
+        {
+          "text": "could you say that again?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a0ecb6a7-aa4a-4c98-bf3d-309a50949595",
+      "data": [
+        {
+          "text": "could you repeat that?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "512f12c0-8714-4b04-8a5b-079c66e3fe96",
+      "data": [
+        {
+          "text": "I didn\u0027t catch that"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77eeef3d-7783-48be-a5e4-3f2af17c079f",
+      "data": [
+        {
+          "text": "say again?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "454826a1-460a-42b1-9083-83dc462e0d9d",
+  "name": "repeat",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "repeat",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

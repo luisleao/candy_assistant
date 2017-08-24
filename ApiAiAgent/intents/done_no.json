@@ -1,0 +1,115 @@
+{
+  "userSays": [
+    {
+      "id": "24ffad2f-5dec-45c0-b46e-711df137c560",
+      "data": [
+        {
+          "text": "i don\u0027t think so"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84504e0c-1b31-4522-b28e-27cf7e36e938",
+      "data": [
+        {
+          "text": "no thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97a6597d-be5a-43e8-9b4e-2937fd77c43b",
+      "data": [
+        {
+          "text": "no way"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "80b1c5b2-d937-407e-a78a-67bcfbc05056",
+      "data": [
+        {
+          "text": "negative"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a49f113e-d036-4db5-aa02-afb12708ef30",
+      "data": [
+        {
+          "text": "nah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "391e9042-5546-4f9c-a0b5-54c0f5ee20e5",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "48e56812-b24a-4222-a788-0be00daef16f",
+      "data": [
+        {
+          "text": "nope"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a419760a-52c3-4229-976d-4240fe31115a",
+      "data": [
+        {
+          "text": "not really"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "be681c1e-de40-4bd6-a20c-667a7b5bebc7",
+  "name": "done_no",
+  "auto": true,
+  "contexts": [
+    "done_yes_no"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "done_no",
+      "affectedContexts": [
+        {
+          "name": "game",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

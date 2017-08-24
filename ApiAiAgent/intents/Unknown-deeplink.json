@@ -1,0 +1,28 @@
+{
+  "userSays": [],
+  "id": "34900fd2-b57a-4bad-ad3d-e329df0abdd2",
+  "name": "Unknown-deeplink",
+  "auto": false,
+  "contexts": [
+    "google_assistant_welcome"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "deeplink.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

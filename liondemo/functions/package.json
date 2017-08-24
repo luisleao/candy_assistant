@@ -1,0 +1,12 @@
+{
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "dependencies": {
+    "sprintf-js": "^1.0.3",
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^0.5.7",
+    "actions-on-google": "^1.1.0"
+
+  },
+  "private": true
+}

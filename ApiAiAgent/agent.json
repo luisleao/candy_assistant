@@ -1,0 +1,40 @@
+{
+  "description": "",
+  "language": "en",
+  "enabledDomainFeatures": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "invocationName": "guess a number",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "68f8347c-72a3-42ac-9ae7-49571001f55e",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V1"
+  },
+  "defaultTimezone": "",
+  "webhook": {
+    "url": "https://us-central1-liondemo2017.cloudfunctions.net/webhook",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false
+  },
+  "isPrivate": false,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2
+}

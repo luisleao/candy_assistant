@@ -1,0 +1,165 @@
+{
+  "userSays": [
+    {
+      "id": "a0187948-c6a3-4997-8dca-6a264b4defad",
+      "data": [
+        {
+          "text": "yes please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d539f0e5-5f3e-4596-bb27-063f749fbd95",
+      "data": [
+        {
+          "text": "alright"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db080845-d328-44ba-aeba-888087953d82",
+      "data": [
+        {
+          "text": "definitely"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "226942e1-61e7-4194-9b60-df4559968dd7",
+      "data": [
+        {
+          "text": "go for it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ff1fe42-fdc9-49a6-9d0c-89a24a6abeac",
+      "data": [
+        {
+          "text": "of course"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d97103ee-3675-4a10-8033-a5e4bbd2b81f",
+      "data": [
+        {
+          "text": "sounds good"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3c90fca0-4c0d-4369-9d60-9d090a01a1a9",
+      "data": [
+        {
+          "text": "you bet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "208b89ae-d8be-4e61-83af-4a19d662464c",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a1a3038-6f02-4c2b-9d47-4cf84dcb83e3",
+      "data": [
+        {
+          "text": "i do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "34654ec6-e88e-4c9c-aa7c-47481e613619",
+      "data": [
+        {
+          "text": "yep"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee05f758-9fa8-4b25-83c4-2943ea9d7d0f",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a3e422d-76d3-4647-a663-191027d3dce7",
+      "data": [
+        {
+          "text": "yeah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b864876-24e5-4b91-a217-00593bce9b25",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "38ac7913-a726-4b0e-9e58-eee70776d312",
+  "name": "done_yes",
+  "auto": true,
+  "contexts": [
+    "done_yes_no"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "done_yes",
+      "affectedContexts": [
+        {
+          "name": "game",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

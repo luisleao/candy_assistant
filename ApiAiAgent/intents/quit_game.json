@@ -1,0 +1,68 @@
+{
+  "userSays": [
+    {
+      "id": "ff9b443b-0f96-43b9-a04c-6d2a613e3558",
+      "data": [
+        {
+          "text": "quit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ecdf22c2-9d8f-4f34-804d-d7fbc9c5da88",
+      "data": [
+        {
+          "text": "stop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51fead61-702b-466a-82e0-ae216d74be18",
+      "data": [
+        {
+          "text": "i give up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ae83b6bd-8a18-4bdf-8183-f93fd948ae54",
+      "data": [
+        {
+          "text": "i quit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "19a87eed-4b5f-4aed-b771-bc9f2313cad2",
+  "name": "quit_game",
+  "auto": true,
+  "contexts": [
+    "game"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "quit",
+      "affectedContexts": [
+        {
+          "name": "game",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false
+}

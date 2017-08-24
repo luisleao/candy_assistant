@@ -1,0 +1,97 @@
+{
+  "userSays": [
+    {
+      "id": "4ff9ce90-6b15-416a-9a0f-1d280162ed2a",
+      "data": [
+        {
+          "text": "number genie number game"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51e08d76-e9c4-4c27-b49a-6864af798c9c",
+      "data": [
+        {
+          "text": "number genie random number game"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e10b330f-9f88-4d51-83cc-c64f7fcb25b9",
+      "data": [
+        {
+          "text": "number genie game"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1755bfe9-5523-4aad-bc71-693a3184d6c2",
+      "data": [
+        {
+          "text": "random number genie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f5747e3a-7eba-43d0-8ff9-6f84b8e49f2c",
+      "data": [
+        {
+          "text": "number genie quiz"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "629fa827-1321-4a48-98a3-4d90fcf5a0e9",
+      "data": [
+        {
+          "text": "number genie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "56da4637-0419-46b2-b851-d7bf726b1b1b",
+  "name": "start_game",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "generate_answer",
+      "affectedContexts": [
+        {
+          "name": "game",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ]
+}
