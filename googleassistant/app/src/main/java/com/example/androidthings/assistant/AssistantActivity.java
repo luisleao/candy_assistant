@@ -461,8 +461,10 @@ public class AssistantActivity extends Activity implements Button.OnButtonEventL
                 //Log.i("onChildAdded", "" + s);
                 Log.i("KEY =======> ", key);
 
+                Long interval = dataSnapshot.child("interval").exists() ? (Long) dataSnapshot.child("interval").getValue() : releaseInterval;
+
                 if (relayTimer != null) relayTimer.cancel();
-                relayTimer = new CountDownTimer(releaseInterval, releaseInterval) {
+                relayTimer = new CountDownTimer(interval, interval) {
                     @Override
                     public void onTick(long millisUntilFinished) {}
 

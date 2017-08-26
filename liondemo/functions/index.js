@@ -51,7 +51,7 @@ function releaseCandies () {
 
 
 const MIN = 0;
-const MAX = 25;
+const MAX = 10;
 const STEAM_SOUND_GAP = 5;
 const GAME_CONTEXT = 'game';
 const GENERATE_ANSWER_ACTION = 'generate_answer';
@@ -563,6 +563,7 @@ exports.webhook = functions.https.onRequest((request, response) => {
       app.setContext(YES_NO_CONTEXT);
       app.data.guessCount = 0;
       if (guessCount >= 10) {
+        releaseCandies();
         let prompt = SSML_SPEAK_START + YOU_WIN_AUDIO +
           printf(getRandomPrompt(app, MANY_TRIES_PROMPTS), answer) +
           SSML_SPEAK_END;
